@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="lightslider.css" />
+    <!-- JS Files -->
+    <script src="JS/JQuery3.3.1.js"></script>
+    <script src="JS/lightslider.js"></script>
+    <!-- Favorite Icon of Your Site -->
+    <link rel="shortcut icon" href="Images/f-t-2.png" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    /> -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://kit.fontawesome.com/c8e4d183c2.jsp"
+      crossorigin="anonymous"
+    ></script> -->
+    <title>Movie App</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="Images/logo.png" alt="" />
+      </a>
+      <!-- menu btn -->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <!-- <span class="nav-icon"></span> -->
+        <i class="fas fas-bars nav-icon"></i>
+      </label>
+
+      <!-- menu -->
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Shows</a></li>
+        <li><a href="#">Hollywood</a></li>
+        <li><a href="#">Horror</a></li>
+        <li><a href="#">TV Shows</a></li>
+      </ul>
+      <!-- Search -->
+      <div class="search">
+        <input type="text" placeholder="Search Your Favourite Moives" />
+        <!-- Search icon using font Awesome -->
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+    <section id="main">
+      <!-- showcase -->
+      <!-- heading -->
+      <h1 class="showcase-heading">Showcase</h1>
+
+      <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+          <!-- showcase-box-1 -->
+          <div class="showcase-box">
+            <img src="Images/1.jpeg" alt="" />
+          </div>
+        </li>
+        <li class="item-b">
+          <!-- showcase-box-2 -->
+          <div class="showcase-box">
+            <img src="Images/2.jpeg" alt="" />
+          </div>
+        </li>
+        <li class="item-c">
+          <!-- showcase-box-3 -->
+          <div class="showcase-box">
+            <img src="Images/3.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-d">
+          <!-- showcase-box-4 -->
+          <div class="showcase-box">
+            <img src="Images/4.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-e">
+          <!-- showcase-box-5 -->
+          <div class="showcase-box">
+            <img src="Images/5.jpg" alt="" />
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Latest Movies -->
+    <section id="latest">
+      <h2 class="latest-heading">Latest Movies</h2>
+
+      <!-- Slider -->
+      <ul id="autoWidth2" class="cs-hidden">
+        <!-- Slider-box-1 -->
+        <li class="item-a">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/f-1.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Kin 2018</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Slider-box-2 -->
+        <li class="item-b">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-2.jfif" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Tesla</strong>
+              <p>Biopic Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-3 -->
+        <li class="item-c">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-3.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Assassin</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-4 -->
+        <li class="item-d">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-4.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Beauty and the Beast</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-5 -->
+        <li class="item-e">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-5.jfif" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Pirates of the Caribbean</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-6 -->
+        <li class="item-f">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-6.jfif" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Seven</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-7 -->
+        <li class="item-g">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-8.jfif" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Rons gone wrong</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-8 -->
+        <li class="item-h">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-9.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>The tomorrow war</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-9 -->
+        <li class="item-i">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-10.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Hulk</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+        <!-- Slider-box-10 -->
+        <li class="item-j">
+          <div class="latest-box">
+            <div class="latest-b-img">
+              <img src="Images/m-7.jpg" alt="" />
+            </div>
+            <div class="latest-b-text">
+              <strong>Aladin</strong>
+              <p>Action Movie</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- Trailers -->
+    <section class="trailers">
+      <h2>Trailers</h2>
+
+      <ul id="autoWidth" class="cs-hidden">
+        <!-- Trailer-box-1 -->
+        <li class="item-a">
+          <div class="trailer-box">
+            <img src="Images/t-1.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-b">
+          <div class="trailer-box">
+            <img src="Images/t-2.jfif" alt="" />
+          </div>
+        </li>
+        <li class="item-c">
+          <div class="trailer-box">
+            <img src="Images/t-3.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-d">
+          <div class="trailer-box">
+            <img src="Images/t-4.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-e">
+          <div class="trailer-box">
+            <img src="Images/t-5.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-f">
+          <div class="trailer-box">
+            <img src="Images/t-6.jpg" alt="" />
+          </div>
+        </li>
+        <li class="item-j">
+          <div class="trailer-box">
+            <img src="Images/t-7.jfif" alt="" />
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Movies  -->
+    <div class="movies-heading">
+      <h2>Movies</h2>
+    </div>
+    <section id="movies-list">
+      <!-- Movie-box-1 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/11.jpg" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >Kick-Ass 2 is a 2013 black comedy superhero film written and directed
+          by Jeff Wadlow.</a
+        >
+      </div>
+      <!-- Movie-box-2 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/1.1.jfif" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >Io is a 2019 American science fiction film directed by Jonathan
+          Helpert.
+        </a>
+      </div>
+      <!-- Movie-box-3 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/1.2.jpg" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >Joker is a 2019 American psychological thriller film directed and
+          produced by Todd Phillips.</a
+        >
+      </div>
+      <!-- Movie-box-4 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/1.3.jpeg" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >The Matrix is a 1999 science fiction action film[5][6] written and
+          directed by the Wachowskis</a
+        >
+      </div>
+      <!-- Movie-box-5 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/1.4.jpg" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >Finding Nemo is a 2003 American computer-animated adventure film
+          produced by Pixar Animation Studios and released by Walt Disney</a
+        >
+      </div>
+      <!-- Movie-box-6 -->
+      <div class="movie-box">
+        <div class="movie-img">
+          <div class="quality">HDrip</div>
+          <img src="Images/1.5.jpg" alt="" srcset="" />
+        </div>
+        <a href="#"
+          >One Year of Love is a song by the British rock band Queen which was
+          originally released on their twelfth studio album A Kind of Magic in
+          1986.</a
+        >
+      </div>
+    </section>
+    <!-- Btns -->
+    <div class="btns">
+      <a href="#">Pervious</a>
+      <a href="#">Next</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Developer Mihir, Ltd Consumer Website</p>
+      <p>Copyright - Deverloper.Mihir</p>
+    </footer>
+
+    <!-- Slider Script -->
+    <script>
+      $(document).ready(function () {
+        $("#autoWidth, #autoWidth2").lightSlider({
+          autoWidth: true,
+          loop: true,
+          onSliderLoad: function () {
+            $("#autoWidth, #autoWidth2").removeClass("cS-hidden");
+          },
+        });
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
